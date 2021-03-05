@@ -15,7 +15,7 @@ author: Synergy AI Research Institute
 
 navbar-links:
   About Me: "aboutme"
-  Posts
+  Posts:
     - Dev: "https://www.synergyai.co/"
     - Research: "https://www.synergyai.co/"
   Resources:
