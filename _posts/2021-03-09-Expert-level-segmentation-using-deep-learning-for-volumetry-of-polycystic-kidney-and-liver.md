@@ -45,7 +45,7 @@ Autosomal Dominant Polycystic Kidney Disease (ADPKD) 는 가장 흔한 신장 �
 
 
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309154327181.png" alt="image-20210309154327181" style="zoom:40%;" />
+<img src="../assets/post_img/image-20210309154327181.png" alt="image-20210309154327181" style="zoom:40%;" />
 
 ### Dataset
 
@@ -56,7 +56,7 @@ Autosomal Dominant Polycystic Kidney Disease (ADPKD) 는 가장 흔한 신장 �
 
 ### Convolutional neural network architecture
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309162038072.png" alt="image-20210309162038072" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210309162038072.png" alt="image-20210309162038072" style="zoom:50%;" />
 
 1. CNN 기반의 V-Net 을 활용하여 pixel 단위로 segmentation 하는 모델을 개발하였습니다. 하지만, 원래 V-Net 과는 다르게 총 16장의 image slice 가 묶인 chunk 3D CT image 를 input 으로 넣었고 각 pixel 에서 activation function 은 Softmax 대신 Sigmoid function 을 사용하였습니다. 안정적이고 빠른 학습을 위해 매 Convolution layer 에 Batch normalization 을 추가하여 학습하였습니다. 
 
@@ -82,18 +82,18 @@ Autosomal Dominant Polycystic Kidney Disease (ADPKD) 는 가장 흔한 신장 �
 
 ## Results
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309163643617.png" alt="image-20210309163643617" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210309163643617.png" alt="image-20210309163643617" style="zoom:50%;" />
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309165749144.png" alt="image-20210309165749144" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210309165749144.png" alt="image-20210309165749144" style="zoom:50%;" />
 
 ### Phase 1: Volume Calculation accuracy
 
 1. 위의 그림에서 볼 수 있듯이 본 논문에서 개발된 **automated segmentation model 의 성능은 DSC 0.961 그리고 ICC 0.999729 (p < 0.00001)** 입니다. 
 2. Bland-Altman plot 에서도 확인할 수 있듯이 GT volume 과 estimated volume 사이의 difference 가 통계적으로 유의미 하게 작다는 것을 알 수 있습니다.
 
-![image-20210309165450563](/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309165450563.png)
+![image-20210309165450563](../assets/post_img/image-20210309165450563.png)
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210309170222489.png" alt="image-20210309170222489" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210309170222489.png" alt="image-20210309170222489" style="zoom:50%;" />
 
 ### Phase 2: Comparison of segmentation performance with human experts
 
