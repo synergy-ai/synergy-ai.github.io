@@ -2,7 +2,7 @@
 layout: post
 title: Expert-level segmentation using deep learning for volumetry of polycystic kidney and liver
 cover-img: /assets/img/CT_image.jpg
-thumbnail-img: /assets/img/CT_image.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/CT_image.jpg
 subtitle: ADPKD Segmentation using Deep learning
 tags: [ADPKD, Segmentation, Deep Learning, Tomography, Artificial Intelligence]
