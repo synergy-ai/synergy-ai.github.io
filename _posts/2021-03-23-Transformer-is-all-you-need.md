@@ -138,7 +138,7 @@ Task-specific 한 prediction head 를 각 task 에 맞게 미리 설정해 놓�
 
 #### Vision-and-language task 가 UniT 에서 좋은 성능을 보이는 이유
 
-1. UniT 은 multi-modal dataset 을 활용하여 학습을 진행합니다. 이렇게 될 경우 앞서 언급한 cross-modality overlay 때문에 각각의 도메인에 맞는 task 에 비해 성능이 하락할 수 있습니다. 하지만 반대로 생각하게 되면 두 도메인이 겹치는 부분에서의 task 의 경우에는 UniT 를 활용하면 성능이 더욱 올라갈 수 있습니다. 따라서 VQAv2, SNLI-VE dataset 과 같은 경우에는 (Vision-and-Language task) 
+1. UniT 은 multi-modal dataset 을 활용하여 학습을 진행합니다. 이렇게 될 경우 앞서 언급한 cross-modality overlay 때문에 각각의 도메인에 맞는 task 에 비해 성능이 하락할 수 있습니다. 하지만 반대로 생각하게 되면 두 도메인이 겹치는 부분에서의 task 의 경우에는 UniT 를 활용하면 성능이 더욱 올라갈 수 있습니다. 따라서 VQAv2, SNLI-VE dataset 과 같은 경우에는 (Vision-and-Language task)  다른 task 에 비해 UniT 에서 multi modal learning 을 진행했을 때 single-task 에 비해 성능이 향상하는 것을 확인할 수 있었습니다.
 
 ## Conclusion
 
