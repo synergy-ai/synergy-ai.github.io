@@ -66,7 +66,7 @@ Neuboots 는 이미 존재하는 neural network 에 쉽게 적용 가능합니�
 
 - 본 논문에서 제시한 Neuboots 는 uncertainty estimation 을 기존의 bootstrap 과는 다르게 computational efficient 한 방향으로 bootstrap 결과와 같은 효과를 내게 됩니다. 이를 증명하기 위해 아래와 같은 figure 를 보여줍니다. Figure 3.2 에서 1, 2 열에 각각 Bootstrap, NeuBoots 에서 도출된 결과를 확인할 수 있습니다. 
 
-  <img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210406203833324.png" alt="image-20210406203833324" style="zoom:50%;" />
+  <img src="../assets/post_img/image-20210406203833324.png" alt="image-20210406203833324" style="zoom:50%;" />
 
 ## Empirical Studies
 
