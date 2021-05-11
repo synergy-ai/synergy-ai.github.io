@@ -4,7 +4,7 @@
 
 ## Collaborator
 
-- [ x ] Aaron Sangwook Kim
+1.  Aaron Sangwook Kim
 
 
 
