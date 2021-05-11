@@ -11,3 +11,9 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+
+
+# In progress files
+_posts/2021-05-09-Communication-Efficient-Learning-of-Deep-Networks-from-Decentralized-Data.md
+_posts/2021-05-13-A-Continual-Learning-Framework-for-Uncertainty-Aware-Interactive-Image-Segmentation.md
+_posts/2021-05-20-f-BRS-Rethinking-Backpropagating-Refinement-for-Interactive-Segmentation.md
