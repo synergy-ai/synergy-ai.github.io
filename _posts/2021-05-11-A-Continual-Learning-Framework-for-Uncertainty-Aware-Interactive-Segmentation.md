@@ -93,7 +93,7 @@ CLIS (**C**ontinual **L**earning for **I**nteractive **S**egmentation) framework
    2. Forward knowledge transfer: model 이 user annotation 을 통해 얼마나 unseen image 들에 대해 성능이 향상되는지
    3. Backward knowledge transfer: model 이 user annotation 을 통해 이전 영상들에 대한 성능이 악화되는 것을 방지하는지
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210508141131893.png" alt="image-20210508141131893" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210508141131893.png" alt="image-20210508141131893" style="zoom:50%;" />
 
 ### Interactive Segmentation
 
@@ -106,7 +106,7 @@ CLIS (**C**ontinual **L**earning for **I**nteractive **S**egmentation) framework
    2. Aleatoric uncertainty 는 softmax 이전, decoder 의 마지막 layer 에 head 를 추가하여 variance 를 측정합니다. 
 2. 최종 uncertainty 는 아래와 같이 구해집니다.
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210508142336735.png" alt="image-20210508142336735" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210508142336735.png" alt="image-20210508142336735" style="zoom:50%;" />
 
  
 
@@ -149,15 +149,15 @@ CLIS (**C**ontinual **L**earning for **I**nteractive **S**egmentation) framework
 
 #### Performance comparison
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210508143213836.png" alt="image-20210508143213836" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210508143213836.png" alt="image-20210508143213836" style="zoom:50%;" />
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210508143130410.png" alt="image-20210508143130410" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210508143130410.png" alt="image-20210508143130410" style="zoom:50%;" />
 
 #### Interpretability
 
 1. Layer-wise binary mask 를 활용하여 kernel activation 을 조절하기 때문에 이는 CLIS 의 interpretability 를 높입니다. 이를 아래 Figure 4 에서 확인할 수 있습니다. 두 개의 다른 task 에서 kernel activation 을 visualization 하였는데 특정 kernel 의 특정 pixel 이 plaque 와 관련된 것을 확인할 수 있습니다.
 
-<img src="/Users/sangwook/Projects/synergy-ai.github.io/assets/post_img/image-20210508143901412.png" alt="image-20210508143901412" style="zoom:50%;" />
+<img src="../assets/post_img/image-20210508143901412.png" alt="image-20210508143901412" style="zoom:50%;" />
 
 ---
 
